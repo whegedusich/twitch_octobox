@@ -60,6 +60,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.webpage" />
+        <item itemvalue="Python.webpage" />
+        <item itemvalue="Python.webpage" />
+        <item itemvalue="Python.webpage" />
       </list>
     </recent_temporary>
   </component>
@@ -70,8 +73,10 @@
       <created>1613331972837</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613331972837</updated>
+      <updated>1613370678403</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
+    <option name="createBranch" value="false" />
     <servers />
   </component>
 </project>
