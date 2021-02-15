@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .container {
+                width: 100%;
+                position: static;
+                text-align: center;
+                }
+    .streamerSelect {
+                    border: 1px outset black;
+                    background-color: white;
+                    text-align: center;
+                    text-color: #6441a5;
+                    box-shadow: -10px 10px;
+                    }
+    .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            }
+    </style>
+    <meta charset="UTF-8">
+    {% block head %}{% endblock %}
+</head>
+<body bgcolor="#6441a5">
+<div class="container">
+    <div class="center">
+        {% block body %} {% endblock %}
+    </div>
+</div>
+</body>
+</html>

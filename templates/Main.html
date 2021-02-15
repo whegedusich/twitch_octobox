@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block head %}
+    <title>TwitchOctobox</title>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="streamerSelect">
+            <span style="color: #6441a5; font-family: impact; text-shadow: -1px -1px #000000; font-size:150%">twitch</span>
+            <span style="font-family: verdana; font-size: 200%"><strong>Octobox</strong></span>
+            <p style="font-family:verdana; font-color:#6441a5;">Enter some channel names:</p>
+            <form action = "/Streams" method="POST">
+                {% for i in range(0, 8) %}
+                    <input type="text" name={{i}}> <p></p>
+                {% endfor %}
+                <input type="submit">
+                <p></p>
+            </form>
+        </div>
+    </div>
+{% endblock %}

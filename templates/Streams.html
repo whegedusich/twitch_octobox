@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block head %}
+    <title>Streams</title>
+{% endblock %}
+
+{% block body %}
+
+    {% for key, value in chans.items() if not (value == null or value =="") %}
+        <iframe name={{value}} id={{value}} src= "{{'https://player.twitch.tv/?channel=' + value + '&parent=datascidad.pythonanywhere.com&muted=true'}}"
+        width="400" height="240"></iframe>
+    {% endfor %}
+
+{% endblock %}
